@@ -1,0 +1,993 @@
+{
+  "fecha_generacion": "2026-07-09",
+  "horizonte_dias": 30,
+  "nivel_servicio": 0.95,
+  "z_factor": 1.6449,
+  "productos": [
+    {
+      "nombre": "Leche Fresca Entera",
+      "mu_dia": 14.44,
+      "sigma_dia": 5.34,
+      "mu_30d": 455.2,
+      "sigma_30d": 29.3,
+      "ic95_inf_30d": 398.0,
+      "ic95_sup_30d": 513.0,
+      "stock_seguridad": 48.0,
+      "prod_recomendada": 503.0,
+      "mae": 3.85,
+      "rmse": 4.88,
+      "mape_pct": 37.2,
+      "cobertura_ic95_pct": 100.0,
+      "pronostico_diario": [
+        {
+          "fecha": "2026-06-26",
+          "pred": 14.5,
+          "ic_inf": 4.0,
+          "ic_sup": 24.9
+        },
+        {
+          "fecha": "2026-06-27",
+          "pred": 8.8,
+          "ic_inf": 0.0,
+          "ic_sup": 19.2
+        },
+        {
+          "fecha": "2026-06-28",
+          "pred": 10.0,
+          "ic_inf": 0.0,
+          "ic_sup": 20.4
+        },
+        {
+          "fecha": "2026-06-29",
+          "pred": 14.8,
+          "ic_inf": 4.4,
+          "ic_sup": 25.3
+        },
+        {
+          "fecha": "2026-06-30",
+          "pred": 18.9,
+          "ic_inf": 8.4,
+          "ic_sup": 29.4
+        },
+        {
+          "fecha": "2026-07-01",
+          "pred": 17.0,
+          "ic_inf": 6.5,
+          "ic_sup": 27.5
+        },
+        {
+          "fecha": "2026-07-02",
+          "pred": 17.4,
+          "ic_inf": 7.0,
+          "ic_sup": 27.9
+        },
+        {
+          "fecha": "2026-07-03",
+          "pred": 14.2,
+          "ic_inf": 3.7,
+          "ic_sup": 24.7
+        },
+        {
+          "fecha": "2026-07-04",
+          "pred": 10.7,
+          "ic_inf": 0.2,
+          "ic_sup": 21.2
+        },
+        {
+          "fecha": "2026-07-05",
+          "pred": 9.2,
+          "ic_inf": 0.0,
+          "ic_sup": 19.7
+        },
+        {
+          "fecha": "2026-07-06",
+          "pred": 13.3,
+          "ic_inf": 2.9,
+          "ic_sup": 23.8
+        },
+        {
+          "fecha": "2026-07-07",
+          "pred": 18.4,
+          "ic_inf": 7.9,
+          "ic_sup": 28.8
+        },
+        {
+          "fecha": "2026-07-08",
+          "pred": 20.0,
+          "ic_inf": 9.5,
+          "ic_sup": 30.4
+        },
+        {
+          "fecha": "2026-07-09",
+          "pred": 18.7,
+          "ic_inf": 8.3,
+          "ic_sup": 29.2
+        },
+        {
+          "fecha": "2026-07-10",
+          "pred": 17.9,
+          "ic_inf": 7.4,
+          "ic_sup": 28.3
+        },
+        {
+          "fecha": "2026-07-11",
+          "pred": 11.2,
+          "ic_inf": 0.7,
+          "ic_sup": 21.7
+        },
+        {
+          "fecha": "2026-07-12",
+          "pred": 13.2,
+          "ic_inf": 2.8,
+          "ic_sup": 23.7
+        },
+        {
+          "fecha": "2026-07-13",
+          "pred": 13.9,
+          "ic_inf": 3.4,
+          "ic_sup": 24.3
+        },
+        {
+          "fecha": "2026-07-14",
+          "pred": 18.1,
+          "ic_inf": 7.7,
+          "ic_sup": 28.6
+        },
+        {
+          "fecha": "2026-07-15",
+          "pred": 18.5,
+          "ic_inf": 8.1,
+          "ic_sup": 29.0
+        },
+        {
+          "fecha": "2026-07-16",
+          "pred": 18.2,
+          "ic_inf": 7.7,
+          "ic_sup": 28.7
+        },
+        {
+          "fecha": "2026-07-17",
+          "pred": 16.2,
+          "ic_inf": 5.8,
+          "ic_sup": 26.7
+        },
+        {
+          "fecha": "2026-07-18",
+          "pred": 11.2,
+          "ic_inf": 0.7,
+          "ic_sup": 21.6
+        },
+        {
+          "fecha": "2026-07-19",
+          "pred": 12.2,
+          "ic_inf": 1.7,
+          "ic_sup": 22.7
+        },
+        {
+          "fecha": "2026-07-20",
+          "pred": 13.9,
+          "ic_inf": 3.5,
+          "ic_sup": 24.4
+        },
+        {
+          "fecha": "2026-07-21",
+          "pred": 17.9,
+          "ic_inf": 7.4,
+          "ic_sup": 28.3
+        },
+        {
+          "fecha": "2026-07-22",
+          "pred": 19.0,
+          "ic_inf": 8.5,
+          "ic_sup": 29.4
+        },
+        {
+          "fecha": "2026-07-23",
+          "pred": 19.5,
+          "ic_inf": 9.0,
+          "ic_sup": 29.9
+        },
+        {
+          "fecha": "2026-07-24",
+          "pred": 16.8,
+          "ic_inf": 6.3,
+          "ic_sup": 27.3
+        },
+        {
+          "fecha": "2026-07-25",
+          "pred": 11.6,
+          "ic_inf": 1.2,
+          "ic_sup": 22.1
+        }
+      ]
+    },
+    {
+      "nombre": "Manjar Blanco Artesanal",
+      "mu_dia": 7.02,
+      "sigma_dia": 3.12,
+      "mu_30d": 265.3,
+      "sigma_30d": 17.1,
+      "ic95_inf_30d": 232.0,
+      "ic95_sup_30d": 299.0,
+      "stock_seguridad": 28.0,
+      "prod_recomendada": 293.0,
+      "mae": 2.28,
+      "rmse": 2.93,
+      "mape_pct": 35.1,
+      "cobertura_ic95_pct": 100.0,
+      "pronostico_diario": [
+        {
+          "fecha": "2026-06-26",
+          "pred": 9.0,
+          "ic_inf": 2.9,
+          "ic_sup": 15.1
+        },
+        {
+          "fecha": "2026-06-27",
+          "pred": 7.2,
+          "ic_inf": 1.1,
+          "ic_sup": 13.3
+        },
+        {
+          "fecha": "2026-06-28",
+          "pred": 9.2,
+          "ic_inf": 3.1,
+          "ic_sup": 15.3
+        },
+        {
+          "fecha": "2026-06-29",
+          "pred": 8.5,
+          "ic_inf": 2.4,
+          "ic_sup": 14.7
+        },
+        {
+          "fecha": "2026-06-30",
+          "pred": 7.5,
+          "ic_inf": 1.4,
+          "ic_sup": 13.6
+        },
+        {
+          "fecha": "2026-07-01",
+          "pred": 8.8,
+          "ic_inf": 2.7,
+          "ic_sup": 14.9
+        },
+        {
+          "fecha": "2026-07-02",
+          "pred": 11.2,
+          "ic_inf": 5.1,
+          "ic_sup": 17.3
+        },
+        {
+          "fecha": "2026-07-03",
+          "pred": 7.6,
+          "ic_inf": 1.5,
+          "ic_sup": 13.7
+        },
+        {
+          "fecha": "2026-07-04",
+          "pred": 6.1,
+          "ic_inf": 0.0,
+          "ic_sup": 12.2
+        },
+        {
+          "fecha": "2026-07-05",
+          "pred": 10.6,
+          "ic_inf": 4.5,
+          "ic_sup": 16.7
+        },
+        {
+          "fecha": "2026-07-06",
+          "pred": 8.2,
+          "ic_inf": 2.1,
+          "ic_sup": 14.3
+        },
+        {
+          "fecha": "2026-07-07",
+          "pred": 8.2,
+          "ic_inf": 2.1,
+          "ic_sup": 14.3
+        },
+        {
+          "fecha": "2026-07-08",
+          "pred": 9.8,
+          "ic_inf": 3.7,
+          "ic_sup": 15.9
+        },
+        {
+          "fecha": "2026-07-09",
+          "pred": 11.4,
+          "ic_inf": 5.2,
+          "ic_sup": 17.5
+        },
+        {
+          "fecha": "2026-07-10",
+          "pred": 6.8,
+          "ic_inf": 0.6,
+          "ic_sup": 12.9
+        },
+        {
+          "fecha": "2026-07-11",
+          "pred": 7.1,
+          "ic_inf": 1.0,
+          "ic_sup": 13.2
+        },
+        {
+          "fecha": "2026-07-12",
+          "pred": 10.4,
+          "ic_inf": 4.3,
+          "ic_sup": 16.5
+        },
+        {
+          "fecha": "2026-07-13",
+          "pred": 8.5,
+          "ic_inf": 2.4,
+          "ic_sup": 14.6
+        },
+        {
+          "fecha": "2026-07-14",
+          "pred": 8.2,
+          "ic_inf": 2.1,
+          "ic_sup": 14.3
+        },
+        {
+          "fecha": "2026-07-15",
+          "pred": 10.5,
+          "ic_inf": 4.4,
+          "ic_sup": 16.7
+        },
+        {
+          "fecha": "2026-07-16",
+          "pred": 11.2,
+          "ic_inf": 5.1,
+          "ic_sup": 17.3
+        },
+        {
+          "fecha": "2026-07-17",
+          "pred": 7.3,
+          "ic_inf": 1.1,
+          "ic_sup": 13.4
+        },
+        {
+          "fecha": "2026-07-18",
+          "pred": 7.5,
+          "ic_inf": 1.3,
+          "ic_sup": 13.6
+        },
+        {
+          "fecha": "2026-07-19",
+          "pred": 10.6,
+          "ic_inf": 4.5,
+          "ic_sup": 16.7
+        },
+        {
+          "fecha": "2026-07-20",
+          "pred": 8.9,
+          "ic_inf": 2.8,
+          "ic_sup": 15.0
+        },
+        {
+          "fecha": "2026-07-21",
+          "pred": 8.7,
+          "ic_inf": 2.6,
+          "ic_sup": 14.9
+        },
+        {
+          "fecha": "2026-07-22",
+          "pred": 10.8,
+          "ic_inf": 4.6,
+          "ic_sup": 16.9
+        },
+        {
+          "fecha": "2026-07-23",
+          "pred": 10.8,
+          "ic_inf": 4.7,
+          "ic_sup": 17.0
+        },
+        {
+          "fecha": "2026-07-24",
+          "pred": 7.0,
+          "ic_inf": 0.8,
+          "ic_sup": 13.1
+        },
+        {
+          "fecha": "2026-07-25",
+          "pred": 7.7,
+          "ic_inf": 1.6,
+          "ic_sup": 13.8
+        }
+      ]
+    },
+    {
+      "nombre": "Mantequilla Artesanal",
+      "mu_dia": 6.29,
+      "sigma_dia": 2.85,
+      "mu_30d": 219.1,
+      "sigma_30d": 15.6,
+      "ic95_inf_30d": 188.0,
+      "ic95_sup_30d": 250.0,
+      "stock_seguridad": 26.0,
+      "prod_recomendada": 245.0,
+      "mae": 2.7,
+      "rmse": 3.06,
+      "mape_pct": 8928462.4,
+      "cobertura_ic95_pct": 96.7,
+      "pronostico_diario": [
+        {
+          "fecha": "2026-06-26",
+          "pred": 8.6,
+          "ic_inf": 3.0,
+          "ic_sup": 14.2
+        },
+        {
+          "fecha": "2026-06-27",
+          "pred": 4.0,
+          "ic_inf": 0.0,
+          "ic_sup": 9.6
+        },
+        {
+          "fecha": "2026-06-28",
+          "pred": 7.6,
+          "ic_inf": 2.0,
+          "ic_sup": 13.2
+        },
+        {
+          "fecha": "2026-06-29",
+          "pred": 6.5,
+          "ic_inf": 0.9,
+          "ic_sup": 12.1
+        },
+        {
+          "fecha": "2026-06-30",
+          "pred": 4.8,
+          "ic_inf": 0.0,
+          "ic_sup": 10.4
+        },
+        {
+          "fecha": "2026-07-01",
+          "pred": 9.2,
+          "ic_inf": 3.6,
+          "ic_sup": 14.8
+        },
+        {
+          "fecha": "2026-07-02",
+          "pred": 10.9,
+          "ic_inf": 5.3,
+          "ic_sup": 16.5
+        },
+        {
+          "fecha": "2026-07-03",
+          "pred": 9.1,
+          "ic_inf": 3.5,
+          "ic_sup": 14.7
+        },
+        {
+          "fecha": "2026-07-04",
+          "pred": 3.8,
+          "ic_inf": 0.0,
+          "ic_sup": 9.4
+        },
+        {
+          "fecha": "2026-07-05",
+          "pred": 7.3,
+          "ic_inf": 1.7,
+          "ic_sup": 12.8
+        },
+        {
+          "fecha": "2026-07-06",
+          "pred": 5.3,
+          "ic_inf": 0.0,
+          "ic_sup": 10.9
+        },
+        {
+          "fecha": "2026-07-07",
+          "pred": 7.5,
+          "ic_inf": 1.9,
+          "ic_sup": 13.1
+        },
+        {
+          "fecha": "2026-07-08",
+          "pred": 9.9,
+          "ic_inf": 4.3,
+          "ic_sup": 15.5
+        },
+        {
+          "fecha": "2026-07-09",
+          "pred": 11.2,
+          "ic_inf": 5.6,
+          "ic_sup": 16.8
+        },
+        {
+          "fecha": "2026-07-10",
+          "pred": 7.8,
+          "ic_inf": 2.3,
+          "ic_sup": 13.4
+        },
+        {
+          "fecha": "2026-07-11",
+          "pred": 4.1,
+          "ic_inf": 0.0,
+          "ic_sup": 9.7
+        },
+        {
+          "fecha": "2026-07-12",
+          "pred": 6.2,
+          "ic_inf": 0.6,
+          "ic_sup": 11.8
+        },
+        {
+          "fecha": "2026-07-13",
+          "pred": 5.3,
+          "ic_inf": 0.0,
+          "ic_sup": 10.9
+        },
+        {
+          "fecha": "2026-07-14",
+          "pred": 9.7,
+          "ic_inf": 4.1,
+          "ic_sup": 15.3
+        },
+        {
+          "fecha": "2026-07-15",
+          "pred": 8.5,
+          "ic_inf": 2.9,
+          "ic_sup": 14.1
+        },
+        {
+          "fecha": "2026-07-16",
+          "pred": 11.2,
+          "ic_inf": 5.6,
+          "ic_sup": 16.8
+        },
+        {
+          "fecha": "2026-07-17",
+          "pred": 8.9,
+          "ic_inf": 3.3,
+          "ic_sup": 14.5
+        },
+        {
+          "fecha": "2026-07-18",
+          "pred": 3.3,
+          "ic_inf": 0.0,
+          "ic_sup": 8.9
+        },
+        {
+          "fecha": "2026-07-19",
+          "pred": 5.2,
+          "ic_inf": 0.0,
+          "ic_sup": 10.8
+        },
+        {
+          "fecha": "2026-07-20",
+          "pred": 6.1,
+          "ic_inf": 0.5,
+          "ic_sup": 11.7
+        },
+        {
+          "fecha": "2026-07-21",
+          "pred": 6.5,
+          "ic_inf": 0.9,
+          "ic_sup": 12.1
+        },
+        {
+          "fecha": "2026-07-22",
+          "pred": 7.8,
+          "ic_inf": 2.2,
+          "ic_sup": 13.3
+        },
+        {
+          "fecha": "2026-07-23",
+          "pred": 10.9,
+          "ic_inf": 5.3,
+          "ic_sup": 16.5
+        },
+        {
+          "fecha": "2026-07-24",
+          "pred": 8.5,
+          "ic_inf": 2.9,
+          "ic_sup": 14.1
+        },
+        {
+          "fecha": "2026-07-25",
+          "pred": 3.4,
+          "ic_inf": 0.0,
+          "ic_sup": 9.0
+        }
+      ]
+    },
+    {
+      "nombre": "Queso Paria",
+      "mu_dia": 10.11,
+      "sigma_dia": 3.98,
+      "mu_30d": 252.1,
+      "sigma_30d": 21.8,
+      "ic95_inf_30d": 209.0,
+      "ic95_sup_30d": 295.0,
+      "stock_seguridad": 36.0,
+      "prod_recomendada": 288.0,
+      "mae": 4.43,
+      "rmse": 5.41,
+      "mape_pct": 57.6,
+      "cobertura_ic95_pct": 80.0,
+      "pronostico_diario": [
+        {
+          "fecha": "2026-06-26",
+          "pred": 9.2,
+          "ic_inf": 1.4,
+          "ic_sup": 17.0
+        },
+        {
+          "fecha": "2026-06-27",
+          "pred": 4.3,
+          "ic_inf": 0.0,
+          "ic_sup": 12.1
+        },
+        {
+          "fecha": "2026-06-28",
+          "pred": 7.9,
+          "ic_inf": 0.1,
+          "ic_sup": 15.7
+        },
+        {
+          "fecha": "2026-06-29",
+          "pred": 7.9,
+          "ic_inf": 0.1,
+          "ic_sup": 15.7
+        },
+        {
+          "fecha": "2026-06-30",
+          "pred": 8.2,
+          "ic_inf": 0.4,
+          "ic_sup": 16.0
+        },
+        {
+          "fecha": "2026-07-01",
+          "pred": 9.2,
+          "ic_inf": 1.3,
+          "ic_sup": 17.0
+        },
+        {
+          "fecha": "2026-07-02",
+          "pred": 11.5,
+          "ic_inf": 3.7,
+          "ic_sup": 19.3
+        },
+        {
+          "fecha": "2026-07-03",
+          "pred": 6.2,
+          "ic_inf": 0.0,
+          "ic_sup": 14.0
+        },
+        {
+          "fecha": "2026-07-04",
+          "pred": 6.4,
+          "ic_inf": 0.0,
+          "ic_sup": 14.2
+        },
+        {
+          "fecha": "2026-07-05",
+          "pred": 10.1,
+          "ic_inf": 2.3,
+          "ic_sup": 17.9
+        },
+        {
+          "fecha": "2026-07-06",
+          "pred": 10.0,
+          "ic_inf": 2.2,
+          "ic_sup": 17.8
+        },
+        {
+          "fecha": "2026-07-07",
+          "pred": 9.7,
+          "ic_inf": 1.8,
+          "ic_sup": 17.5
+        },
+        {
+          "fecha": "2026-07-08",
+          "pred": 8.6,
+          "ic_inf": 0.8,
+          "ic_sup": 16.4
+        },
+        {
+          "fecha": "2026-07-09",
+          "pred": 9.4,
+          "ic_inf": 1.5,
+          "ic_sup": 17.2
+        },
+        {
+          "fecha": "2026-07-10",
+          "pred": 9.6,
+          "ic_inf": 1.8,
+          "ic_sup": 17.4
+        },
+        {
+          "fecha": "2026-07-11",
+          "pred": 5.1,
+          "ic_inf": 0.0,
+          "ic_sup": 13.0
+        },
+        {
+          "fecha": "2026-07-12",
+          "pred": 10.5,
+          "ic_inf": 2.7,
+          "ic_sup": 18.3
+        },
+        {
+          "fecha": "2026-07-13",
+          "pred": 8.1,
+          "ic_inf": 0.3,
+          "ic_sup": 15.9
+        },
+        {
+          "fecha": "2026-07-14",
+          "pred": 9.3,
+          "ic_inf": 1.5,
+          "ic_sup": 17.1
+        },
+        {
+          "fecha": "2026-07-15",
+          "pred": 8.1,
+          "ic_inf": 0.3,
+          "ic_sup": 15.9
+        },
+        {
+          "fecha": "2026-07-16",
+          "pred": 10.0,
+          "ic_inf": 2.1,
+          "ic_sup": 17.8
+        },
+        {
+          "fecha": "2026-07-17",
+          "pred": 6.2,
+          "ic_inf": 0.0,
+          "ic_sup": 14.1
+        },
+        {
+          "fecha": "2026-07-18",
+          "pred": 5.2,
+          "ic_inf": 0.0,
+          "ic_sup": 13.0
+        },
+        {
+          "fecha": "2026-07-19",
+          "pred": 10.0,
+          "ic_inf": 2.2,
+          "ic_sup": 17.8
+        },
+        {
+          "fecha": "2026-07-20",
+          "pred": 8.7,
+          "ic_inf": 0.9,
+          "ic_sup": 16.5
+        },
+        {
+          "fecha": "2026-07-21",
+          "pred": 9.9,
+          "ic_inf": 2.1,
+          "ic_sup": 17.7
+        },
+        {
+          "fecha": "2026-07-22",
+          "pred": 8.8,
+          "ic_inf": 1.0,
+          "ic_sup": 16.6
+        },
+        {
+          "fecha": "2026-07-23",
+          "pred": 9.5,
+          "ic_inf": 1.7,
+          "ic_sup": 17.3
+        },
+        {
+          "fecha": "2026-07-24",
+          "pred": 8.2,
+          "ic_inf": 0.3,
+          "ic_sup": 16.0
+        },
+        {
+          "fecha": "2026-07-25",
+          "pred": 6.3,
+          "ic_inf": 0.0,
+          "ic_sup": 14.1
+        }
+      ]
+    },
+    {
+      "nombre": "Yogurt Frutado de Fresa",
+      "mu_dia": 18.65,
+      "sigma_dia": 6.44,
+      "mu_30d": 471.0,
+      "sigma_30d": 35.3,
+      "ic95_inf_30d": 402.0,
+      "ic95_sup_30d": 540.0,
+      "stock_seguridad": 58.0,
+      "prod_recomendada": 529.0,
+      "mae": 4.99,
+      "rmse": 6.76,
+      "mape_pct": 21.3,
+      "cobertura_ic95_pct": 90.0,
+      "pronostico_diario": [
+        {
+          "fecha": "2026-06-26",
+          "pred": 17.6,
+          "ic_inf": 5.0,
+          "ic_sup": 30.2
+        },
+        {
+          "fecha": "2026-06-27",
+          "pred": 10.8,
+          "ic_inf": 0.0,
+          "ic_sup": 23.4
+        },
+        {
+          "fecha": "2026-06-28",
+          "pred": 17.4,
+          "ic_inf": 4.7,
+          "ic_sup": 30.0
+        },
+        {
+          "fecha": "2026-06-29",
+          "pred": 19.9,
+          "ic_inf": 7.3,
+          "ic_sup": 32.5
+        },
+        {
+          "fecha": "2026-06-30",
+          "pred": 15.9,
+          "ic_inf": 3.3,
+          "ic_sup": 28.6
+        },
+        {
+          "fecha": "2026-07-01",
+          "pred": 13.3,
+          "ic_inf": 0.7,
+          "ic_sup": 25.9
+        },
+        {
+          "fecha": "2026-07-02",
+          "pred": 24.4,
+          "ic_inf": 11.8,
+          "ic_sup": 37.0
+        },
+        {
+          "fecha": "2026-07-03",
+          "pred": 15.7,
+          "ic_inf": 3.1,
+          "ic_sup": 28.4
+        },
+        {
+          "fecha": "2026-07-04",
+          "pred": 11.0,
+          "ic_inf": 0.0,
+          "ic_sup": 23.6
+        },
+        {
+          "fecha": "2026-07-05",
+          "pred": 14.5,
+          "ic_inf": 1.9,
+          "ic_sup": 27.1
+        },
+        {
+          "fecha": "2026-07-06",
+          "pred": 17.3,
+          "ic_inf": 4.7,
+          "ic_sup": 30.0
+        },
+        {
+          "fecha": "2026-07-07",
+          "pred": 13.7,
+          "ic_inf": 1.1,
+          "ic_sup": 26.3
+        },
+        {
+          "fecha": "2026-07-08",
+          "pred": 11.7,
+          "ic_inf": 0.0,
+          "ic_sup": 24.4
+        },
+        {
+          "fecha": "2026-07-09",
+          "pred": 26.0,
+          "ic_inf": 13.4,
+          "ic_sup": 38.6
+        },
+        {
+          "fecha": "2026-07-10",
+          "pred": 12.0,
+          "ic_inf": 0.0,
+          "ic_sup": 24.6
+        },
+        {
+          "fecha": "2026-07-11",
+          "pred": 11.4,
+          "ic_inf": 0.0,
+          "ic_sup": 24.1
+        },
+        {
+          "fecha": "2026-07-12",
+          "pred": 15.9,
+          "ic_inf": 3.3,
+          "ic_sup": 28.5
+        },
+        {
+          "fecha": "2026-07-13",
+          "pred": 15.1,
+          "ic_inf": 2.5,
+          "ic_sup": 27.7
+        },
+        {
+          "fecha": "2026-07-14",
+          "pred": 11.4,
+          "ic_inf": 0.0,
+          "ic_sup": 24.0
+        },
+        {
+          "fecha": "2026-07-15",
+          "pred": 14.1,
+          "ic_inf": 1.5,
+          "ic_sup": 26.7
+        },
+        {
+          "fecha": "2026-07-16",
+          "pred": 25.1,
+          "ic_inf": 12.5,
+          "ic_sup": 37.7
+        },
+        {
+          "fecha": "2026-07-17",
+          "pred": 12.9,
+          "ic_inf": 0.3,
+          "ic_sup": 25.5
+        },
+        {
+          "fecha": "2026-07-18",
+          "pred": 11.9,
+          "ic_inf": 0.0,
+          "ic_sup": 24.5
+        },
+        {
+          "fecha": "2026-07-19",
+          "pred": 15.9,
+          "ic_inf": 3.3,
+          "ic_sup": 28.5
+        },
+        {
+          "fecha": "2026-07-20",
+          "pred": 16.3,
+          "ic_inf": 3.6,
+          "ic_sup": 28.9
+        },
+        {
+          "fecha": "2026-07-21",
+          "pred": 11.9,
+          "ic_inf": 0.0,
+          "ic_sup": 24.5
+        },
+        {
+          "fecha": "2026-07-22",
+          "pred": 16.1,
+          "ic_inf": 3.5,
+          "ic_sup": 28.7
+        },
+        {
+          "fecha": "2026-07-23",
+          "pred": 26.6,
+          "ic_inf": 14.0,
+          "ic_sup": 39.2
+        },
+        {
+          "fecha": "2026-07-24",
+          "pred": 12.9,
+          "ic_inf": 0.3,
+          "ic_sup": 25.5
+        },
+        {
+          "fecha": "2026-07-25",
+          "pred": 12.3,
+          "ic_inf": 0.0,
+          "ic_sup": 24.9
+        }
+      ]
+    }
+  ]
+}
