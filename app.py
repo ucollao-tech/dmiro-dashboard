@@ -186,7 +186,7 @@ def grafico_torta():
 # SIDEBAR
 # ─────────────────────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.image("https://i.imgur.com/placeholder.png", width=60) if False else None
+    
     st.markdown("## 🧀 D'MIRO")
     st.markdown("**Planificación de Producción**")
     st.markdown("---")
@@ -265,7 +265,7 @@ with col_dist:
         f"{producto_sel}\nμ={s['mu_h']:.0f}  σ={s['sigma_h']:.1f}  IC95%=[{s['ic_low']:.0f},{s['ic_high']:.0f}]",
         p["color"]
     )
-    st.pyplot(fig_dist, use_container_width=True)
+    st.pyplot(fig_dist)
     plt.close(fig_dist)
 
 with col_tabla:
@@ -283,7 +283,7 @@ with col_tabla:
             "Prod. Rec.":f"{st_d['prod_rec']:.0f}",
         })
     df_tabla = pd.DataFrame(filas)
-    st.dataframe(df_tabla, use_container_width=True, hide_index=True, height=230)
+    st.dataframe(df_tabla, hide_index=True, height=230)
 
     # Resumen total
     total_prod = sum(
@@ -308,13 +308,13 @@ st.markdown('<div class="section-header">📅 Variables Explicativas de la Deman
 
 cv1, cv2, cv3 = st.columns(3)
 with cv1:
-    st.pyplot(grafico_barras_dias(), use_container_width=True)
+    st.pyplot(grafico_barras_dias())
     plt.close()
 with cv2:
-    st.pyplot(grafico_meses(), use_container_width=True)
+    st.pyplot(grafico_meses())
     plt.close()
 with cv3:
-    st.pyplot(grafico_torta(), use_container_width=True)
+    st.pyplot(grafico_torta())
     plt.close()
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -334,7 +334,7 @@ for col, (prod, dat) in zip(cols5, STATS_BASE.items()):
             f"{dat['emoji']} {prod[:18]}\nμ={st_d['mu_h']:.0f} σ={st_d['sigma_h']:.1f}",
             dat["color"]
         )
-        st.pyplot(fig_p, use_container_width=True)
+        st.pyplot(fig_p)
         plt.close(fig_p)
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -357,7 +357,7 @@ with ca:
         {"Fecha": k, "Feriado": v, "Impacto": "−35% demanda"}
         for k, v in nombres_feriados.items()
     ])
-    st.dataframe(df_fer, use_container_width=True, hide_index=True, height=280)
+    st.dataframe(df_fer, hide_index=True, height=280)
 
 with cb:
     st.markdown('<div class="section-header">📊 Pronóstico Diario — Próximos 30 días</div>', unsafe_allow_html=True)
@@ -387,7 +387,7 @@ with cb:
     ax_ts.legend(fontsize=8)
     ax_ts.grid(alpha=0.25)
     fig_ts.tight_layout()
-    st.pyplot(fig_ts, use_container_width=True)
+    st.pyplot(fig_ts)
     plt.close(fig_ts)
 
 # ─────────────────────────────────────────────────────────────────────────────
